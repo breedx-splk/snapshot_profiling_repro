@@ -39,3 +39,5 @@ $ k6 run -i 1000 --rps 100 k6/basic.js
 
 # Results
 
+Look for logging payloads in the collector output. Some will contain
+profiles and mention callgraphs.

@@ -5,4 +5,4 @@ docker run -it --rm \
     -p 4318:4318 \
     -v $(pwd)/collector.yaml:/app/collector.yaml \
     otel/opentelemetry-collector-contrib \
-    --config /app/collector.yaml
+    --config /app/collector.yaml | tee out-collector.txt
